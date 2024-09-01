@@ -1,0 +1,6 @@
+local args = {
+    [1] = "Start Dungeon}
+game:GetService("ReplicatedStorage").NEW37.DUNGEONS.DungeonEvent:FireServer(unpack(args))
+local args = {
+    [1] = "Confirm Trade"}
+game:GetService("ReplicatedStorage").NEW37.TRADING.TradingEvent:FireServer(unpack(args))
